@@ -1,0 +1,31 @@
+NBA Team Analysis README
+Overview
+This repository contains the code and analysis for evaluating NBA team performance and playoff appearances. The analysis spans various questions related to team stints outside the playoffs, conference-wise comparisons, and predictive modeling of future team success.
+
+Analysis
+Questions 1 to 9: Data Loading and Cleaning
+Questions 1 to 9 primarily involve loading and cleaning the NBA dataset. These tasks include data loading, filtering, and organizing the data to prepare it for analysis.
+
+Question 10: Playoff Stints
+In Question 10, we defined "stints" outside the playoffs as continuous periods when a team does not make the playoffs. The Phoenix Suns had two stints outside the playoffs between 2005 and 2021, with lengths of 1 and 10 seasons, respectively.
+
+Question 11: Mean and Median Stint Lengths
+The mean and median lengths of playoff stints across all NBA teams were calculated. The mean stint length was approximately 3.4 seasons, while the median stint length was 3.0 seasons.
+
+Question 12: Mean Stint Length by Conference
+The mean playoff stint lengths were compared between Eastern and Western Conference teams. Eastern Conference teams had an average playoff stint length of approximately 2.9 seasons, while Western Conference teams had an average of 4.1 seasons.
+
+Question 13: Permutation Test
+A permutation test was conducted in Question 13 to assess whether the difference in playoff stint lengths between the conferences could be attributed to randomness. The results indicated that the observed difference was not statistically significant, suggesting that it may have occurred by chance.
+
+Question 14: Predictive Modeling
+In Question 14, we built a predictive model to estimate a team's win percentage for the following season. Multiple linear regression was employed, considering factors such as this season's win percentage, average team age, strength of schedule, true shooting percentage, opponent's effective field goal percentage, conference, and the change in win percentage from the previous season. The model demonstrated a reasonable Root Mean Squared Error (RMSE) of 0.10.
+
+Key Takeaways
+The analysis begins with data loading and cleaning tasks to prepare the NBA dataset.
+Playoff stints outside the playoffs vary in length, with an average of around 3.4 seasons.
+Eastern Conference teams tend to have shorter playoff stints compared to Western Conference teams.
+The difference in playoff stint lengths between conferences may not be statistically significant.
+The predictive model provides a reasonable estimate of a team's win percentage for the following season, with this season's win percentage being a strong predictor.
+Usage
+You can replicate and explore the analysis by referring to the provided code in this repository. Feel free to adapt the code or further investigate NBA team performance based on the insights gained from this analysis.
